@@ -12,7 +12,7 @@
 @code {
 	[Parameter]
 	public T SelectedOption { get; set; }
-	[Parameter, EditorRequired]
+	[Parameter]
 	public IEnumerable<T> Options { get; set; } 
 	[Parameter]
 	public EventCallback<T> SelectedOptionChanged { get; set; }
